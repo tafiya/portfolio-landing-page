@@ -43,24 +43,24 @@ This project is a responsive **Personal Portfolio Landing Page** built using mod
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-```
+    git clone <repository_url>
+   ```
 2. Navigate to the project directory:
    ```bash
-cd personal-portfolio-landing-page
-```
+    cd personal-portfolio-landing-page
+   ```
 3. Install dependencies:
-   ```bash
-  npm install
-```
+    ```bash
+   npm install
+   ```
 4. Start the development server:
-   ```bash
-  npm start
-```
+    ```bash
+    npm start
+    ```
 5. Open the app in your browser at:
    ```bash
-http://localhost:3000
-```
+    http://localhost:3000
+   ```
 ## Deployment and Live Link
 
 This project is deployed using **Vercel** for fast and reliable hosting.
