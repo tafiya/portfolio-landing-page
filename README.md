@@ -67,4 +67,4 @@ This project is deployed using **Vercel** for fast and reliable hosting.
 
 ### Live Link:
 You can view the live version of this project here:
-[Live Project](https://your-vercel-deployment-link.com)
+[Live Project](https://portfolio-landing-page-lilac.vercel.app/)
