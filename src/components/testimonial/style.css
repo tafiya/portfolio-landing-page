@@ -1,0 +1,51 @@
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  gap: 50px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  max-width: 1087px; /* Ensures responsiveness */
+  height: auto; /* Maintain aspect ratio */
+  aspect-ratio: 1087 / 344;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Style for centered slide (no blur) */
+.swiper-slide-active {
+  filter: blur(0); /* No blur for active slide */
+  transform: scale(1); /* Slightly larger for emphasis */
+}
+
+/* Style for non-centered (rotated) slides */
+.swiper-slide:not(.swiper-slide-active) {
+  filter: blur(8px); /* Apply blur to rotated slides */
+  transform: scale(0.9); /* Slightly smaller size */
+}
+
+/* Custom Swiper pagination bullets */
+.custom-bullet {
+  background-color: #f97316; /* Orange color */
+  width: 57px;
+  height: 16px;
+  border-radius: 8px;
+  opacity: 0.7;
+  margin: 0 5px;
+  transition: opacity 0.3s ease;
+}
+
+.custom-bullet.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+.swiper-pagination-bullet {
+  background-color: #f97316; /* Orange color */
+  width: 57px;
+  height: 16px;
+  border-radius: 8px;
+}
