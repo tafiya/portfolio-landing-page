@@ -28,15 +28,15 @@ const Banner = () => {
                 <div className="h-auto lg:h-[675px] w-full flex justify-center items-center relative">
                     <div className="relative">
                         {/* Gradient Circle */}
-                        <div className="absolute top-0 lg:mt-[26%] left-[9.5%] rounded-full bg-gradient-to-t from-[#FF8233] to-[#FFFFFF00] w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] lg:w-[485px] lg:h-[485px]">
-                            <div className="bg-white left-[4px] top-[4px] relative w-[290px] h-[290px] sm:w-[392px] sm:h-[392px] lg:w-[478px] lg:h-[478px] rounded-full shadow-inner shadow-[#00000078]"></div>
+                        <div className="absolute top-0 lg:mt-[26%] left-[9.5%] rounded-full bg-gradient-to-t from-[#FF8233] to-[#FFFFFF00] w-[260px] h-[270px]  lg:w-[485px] lg:h-[485px]">
+                            <div className="bg-white left-[4px] top-[4px] relative w-[250px] h-[250px]  lg:w-[478px] lg:h-[478px] rounded-full shadow-inner shadow-[#00000078]"></div>
                         </div>
 
                         {/* Profile Image */}
                         <img
                             src={banner}
                             alt="About Me"
-                            className=" left-[10%] relative rounded-full h-[300px] w-[300px] sm:h-[400px] sm:w-[400px] lg:h-[605px] lg:w-[480px]"
+                            className=" left-[10%] relative rounded-full h-[270px] w-[260px]  lg:h-[605px] lg:w-[480px]"
                         />
                     </div>
 
