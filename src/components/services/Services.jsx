@@ -10,7 +10,7 @@ const Services = () => {
             <p className="text-[21px] font-normal lg:w-[932px] text-center mt-6 mb-7 md:mb-[60px]">
                 Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium
             </p>
-            <div className=" grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[31px] text-black ">
+            <div className=" grid 2xl:grid-cols-4 xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[31px] text-black ">
                 <div className=" lg:w-[330px] w-[300px] h-[346] bg-[#F8F8F8] rounded-[14px] px-8 py-[52px]">
                     <img src={ui} alt="" />
                     <h2 className=" my-5 text-[32px] font-semibold">UI/UX</h2>

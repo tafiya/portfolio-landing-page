@@ -3,8 +3,8 @@ import banner from "../../assets/images/banner2.png";
 // import about from "../../assets/images/about-t.png";
 const Banner = () => {
     return (
-        <div className="dark:text-white text-black max-w-[1400px] mx-auto lg:gap-0 gap-10 md:my-[70px] my-8 flex w-full justify-between items-center flex-col lg:flex-row px-10 md:px-20">
-            <div className="lg:w-2/4 ">
+        <div className="dark:text-white text-black max-w-[1400px] mx-auto lg:gap-0 gap-10 md:my-[70px] my-16 flex w-full justify-between items-center flex-col lg:flex-row px-10 md:px-20">
+            <div className="lg:w-2/4 flex flex-col xl:items-start items-center ">
                 <h1 className="text-2xl font-semibold">
                     Hi I am
                 </h1>
@@ -41,7 +41,7 @@ const Banner = () => {
                     </div>
 
                     {/* Decorative Rectangle */}
-                    <div className="absolute lg:top-[15%] top-[12%] lg:left-[17%] h-[40px] w-[180px] sm:h-[60px] sm:w-[250px] lg:h-[83px] lg:w-[374px] bg-[#FD6F0099] opacity-60"></div>
+                    <div className="absolute xl:top-[15%] top-[12%] xl:left-[17%] ml-10 xl:ml-0  h-[40px] w-[180px] sm:h-[60px] sm:w-[250px] lg:h-[83px] lg:w-[374px] bg-[#FD6F0099] opacity-60"></div>
                 </div>
                 <div className=" flex text-[32px] gap-14">
                     <a href="#facebook"> <FaFacebook /></a>

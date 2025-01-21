@@ -8,7 +8,7 @@ const AboutMe = () => {
         { name: "Graphic Design", percentage: 75 },
     ];
     return (
-        <div className="dark:text-white text-black max-w-[1470px] mx-auto md:mb-[70px]  flex justify-between items-center flex-col lg:flex-row gap-10 lg:gap-20">
+        <div className="dark:text-white text-black max-w-[1470px] mx-auto md:mb-[70px]  flex justify-between items-center flex-col-reverse xl:flex-row gap-10 lg:gap-20">
             {/* Image Section */}
             <div className="h-auto lg:h-[675px] w-full lg:w-[40%] flex justify-center items-center relative">
                 <div className="relative">

@@ -8,7 +8,7 @@ const Contact = () => {
                 Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus
                 netus in. Aliquet donec morbi convallis pretium.
             </p>
-            <div className="flex items-center gap-4">
+            <div className="flex lg:flex-row md:flex-row flex-col items-center gap-4">
                 <input
                     type="email"
                     placeholder="Enter Your Email"
